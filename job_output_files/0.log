@@ -1,0 +1,531 @@
+000 (5485763.000.000) 2022-11-07 13:35:21 Job submitted from host: <144.92.180.28:9618?addrs=144.92.180.28-9618+[2607-f388-101c-1000--370]-9618&alias=login04.hep.wisc.edu&noUDP&sock=schedd_3631_2478>
+...
+028 (5485763.000.000) 2022-11-07 13:35:21 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T13:35:21.136"
+EventTypeNumber = 28
+MyType = "SubmitEvent"
+Proc = 0
+SubmitHost = "<144.92.180.28:9618?addrs=144.92.180.28-9618+[2607-f388-101c-1000--370]-9618&alias=login04.hep.wisc.edu&noUDP&sock=schedd_3631_2478>"
+Subproc = 0
+TriggerEventTypeName = "ULOG_SUBMIT"
+TriggerEventTypeNumber = 0
+...
+040 (5485763.000.000) 2022-11-07 13:36:08 Started transferring input files
+	Transferring to host: <128.105.69.22:9618?addrs=128.105.69.22-9618+[2607-f388-2200-100-fac2-88ff-fe67-c313]-9618&alias=e344.chtc.wisc.edu&noUDP&sock=slot1_13_4357_a68a_113141>
+...
+028 (5485763.000.000) 2022-11-07 13:36:08 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T13:36:08.379"
+EventTypeNumber = 28
+Host = "<128.105.69.22:9618?addrs=128.105.69.22-9618+[2607-f388-2200-100-fac2-88ff-fe67-c313]-9618&alias=e344.chtc.wisc.edu&noUDP&sock=slot1_13_4357_a68a_113141>"
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 2
+...
+040 (5485763.000.000) 2022-11-07 13:36:10 Finished transferring input files
+...
+028 (5485763.000.000) 2022-11-07 13:36:10 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T13:36:10.303"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 3
+...
+001 (5485763.000.000) 2022-11-07 13:36:11 Job executing on host: <128.105.69.22:9618?addrs=128.105.69.22-9618+[2607-f388-2200-100-fac2-88ff-fe67-c313]-9618&alias=e344.chtc.wisc.edu&noUDP&sock=startd_7225_53d8>
+...
+028 (5485763.000.000) 2022-11-07 13:36:11 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T13:36:11.306"
+EventTypeNumber = 28
+ExecuteHost = "<128.105.69.22:9618?addrs=128.105.69.22-9618+[2607-f388-2200-100-fac2-88ff-fe67-c313]-9618&alias=e344.chtc.wisc.edu&noUDP&sock=startd_7225_53d8>"
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MyType = "ExecuteEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_EXECUTE"
+TriggerEventTypeNumber = 1
+...
+006 (5485763.000.000) 2022-11-07 13:36:19 Image size of job updated: 1011024
+	14  -  MemoryUsage of job (MB)
+	13892  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 13:36:19 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T13:36:19.414"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 14
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 13892
+Size = 1011024
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 13:41:19 Image size of job updated: 2635336
+	922  -  MemoryUsage of job (MB)
+	943372  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 13:41:19 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T13:41:19.954"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 922
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 943372
+Size = 2635336
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 13:46:20 Image size of job updated: 2928736
+	1096  -  MemoryUsage of job (MB)
+	1122108  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 13:46:20 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T13:46:20.195"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1096
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1122108
+Size = 2928736
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 13:51:20 Image size of job updated: 2928736
+	1126  -  MemoryUsage of job (MB)
+	1152080  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 13:51:20 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T13:51:20.518"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1126
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1152080
+Size = 2928736
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 14:11:22 Image size of job updated: 2928736
+	1183  -  MemoryUsage of job (MB)
+	1210524  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 14:11:22 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T14:11:22.620"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1183
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1210524
+Size = 2928736
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 14:26:24 Image size of job updated: 2935388
+	1193  -  MemoryUsage of job (MB)
+	1221120  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 14:26:24 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T14:26:24.655"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1193
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1221120
+Size = 2935388
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 14:36:26 Image size of job updated: 2938256
+	1196  -  MemoryUsage of job (MB)
+	1223988  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 14:36:26 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T14:36:26.249"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1196
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1223988
+Size = 2938256
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 15:31:32 Image size of job updated: 2967536
+	1224  -  MemoryUsage of job (MB)
+	1253268  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 15:31:32 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T15:31:32.457"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1224
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1253268
+Size = 2967536
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 15:56:34 Image size of job updated: 2967536
+	1224  -  MemoryUsage of job (MB)
+	1253272  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 15:56:34 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T15:56:34.921"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1224
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1253272
+Size = 2967536
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 16:51:39 Image size of job updated: 2967732
+	1225  -  MemoryUsage of job (MB)
+	1253472  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 16:51:39 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T16:51:39.355"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1225
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1253472
+Size = 2967732
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 17:46:45 Image size of job updated: 2967732
+	1225  -  MemoryUsage of job (MB)
+	1253480  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 17:46:45 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T17:46:45.711"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1225
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1253480
+Size = 2967732
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 19:51:57 Image size of job updated: 2967732
+	1225  -  MemoryUsage of job (MB)
+	1253584  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 19:51:57 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T19:51:57.588"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1225
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1253584
+Size = 2967732
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 20:01:59 Image size of job updated: 2971444
+	1228  -  MemoryUsage of job (MB)
+	1257296  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 20:01:59 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T20:01:59.190"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1228
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1257296
+Size = 2971444
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 21:07:06 Image size of job updated: 2971908
+	1229  -  MemoryUsage of job (MB)
+	1257656  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 21:07:06 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T21:07:06.982"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1229
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1257656
+Size = 2971908
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 22:57:19 Image size of job updated: 2971908
+	1229  -  MemoryUsage of job (MB)
+	1257660  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 22:57:19 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T22:57:19.295"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1229
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1257660
+Size = 2971908
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-07 23:52:23 Image size of job updated: 2975748
+	1232  -  MemoryUsage of job (MB)
+	1261500  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-07 23:52:23 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-07T23:52:23.686"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1232
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1261500
+Size = 2975748
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-08 02:47:38 Image size of job updated: 3029820
+	1285  -  MemoryUsage of job (MB)
+	1315700  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-08 02:47:38 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-08T02:47:38.422"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1285
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1315700
+Size = 3029820
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-08 03:12:40 Image size of job updated: 3031092
+	1286  -  MemoryUsage of job (MB)
+	1316844  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-08 03:12:40 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-08T03:12:40.948"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1286
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1316844
+Size = 3031092
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-08 04:12:45 Image size of job updated: 3031556
+	1287  -  MemoryUsage of job (MB)
+	1317308  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-08 04:12:45 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-08T04:12:45.631"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1287
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1317308
+Size = 3031556
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-08 04:37:49 Image size of job updated: 3031556
+	1287  -  MemoryUsage of job (MB)
+	1317332  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-08 04:37:49 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-08T04:37:49.191"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1287
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1317332
+Size = 3031556
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-08 05:07:53 Image size of job updated: 3031556
+	1287  -  MemoryUsage of job (MB)
+	1317456  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-08 05:07:53 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-08T05:07:53.023"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1287
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1317456
+Size = 3031556
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+006 (5485763.000.000) 2022-11-08 08:33:15 Image size of job updated: 3032276
+	1288  -  MemoryUsage of job (MB)
+	1318052  -  ResidentSetSize of job (KB)
+...
+028 (5485763.000.000) 2022-11-08 08:33:15 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-08T08:33:15.347"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MemoryUsage = 1288
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 1318052
+Size = 3032276
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+040 (5485763.000.000) 2022-11-08 10:00:51 Started transferring output files
+...
+028 (5485763.000.000) 2022-11-08 10:00:51 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-08T10:00:51.670"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 5
+...
+040 (5485763.000.000) 2022-11-08 10:04:06 Finished transferring output files
+...
+028 (5485763.000.000) 2022-11-08 10:04:06 Job ad information event triggered.
+Cluster = 5485763
+EventTime = "2022-11-08T10:04:06.815"
+EventTypeNumber = 28
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 6
+...
+005 (5485763.000.000) 2022-11-08 10:04:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 20:14:54, Sys 0 00:04:49  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 20:14:54, Sys 0 00:04:49  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5548539392  -  Run Bytes Sent By Job
+	45245436  -  Run Bytes Received By Job
+	5548539392  -  Total Bytes Sent By Job
+	45245436  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.16        1         1 
+	   Disk (KB)            : 5449531     6144000   6353854 
+	   IoHeavy              :                             0 
+	   Memory (MB)          :    1288        2048      2048 
+
+	Job terminated of its own accord at 2022-11-08T16:00:50Z.
+...
+028 (5485763.000.000) 2022-11-08 10:04:06 Job ad information event triggered.
+Cluster = 5485763
+Cpus = 1
+CpusUsage = 0.1632417613151237
+Disk = 6353854
+DiskUsage = 5449531
+EventTime = "2022-11-08T10:04:06.951"
+EventTypeNumber = 28
+IoHeavy = 0
+MachineAttrName0 = "slot1_13@e344.chtc.wisc.edu"
+Memory = 2048
+MemoryUsage = 1288
+MyType = "JobTerminatedEvent"
+Proc = 0
+ReceivedBytes = 45245436.0
+RequestCpus = 1
+RequestDisk = 6144000
+RequestMemory = 2048
+ReturnValue = 0
+RunLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+RunRemoteUsage = "Usr 0 20:14:54, Sys 0 00:04:49"
+SentBytes = 5548539392.0
+Subproc = 0
+TerminatedNormally = true
+ToE = [ ExitBySignal = false; HowCode = 0; How = "OF_ITS_OWN_ACCORD"; Who = "itself"; ExitCode = 0; When = 1667923250 ]
+TotalLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+TotalReceivedBytes = 45245436.0
+TotalRemoteUsage = "Usr 0 20:14:54, Sys 0 00:04:49"
+TotalSentBytes = 5548539392.0
+TriggerEventTypeName = "ULOG_JOB_TERMINATED"
+TriggerEventTypeNumber = 5
+...

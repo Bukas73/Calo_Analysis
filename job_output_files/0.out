@@ -1,0 +1,25 @@
+
+Worker node
+e344.chtc.wisc.edu
+
+Working directory
+-rw-r--r-- 1 slot1_13 slot1_13         60 Nov  8 10:00 _condor_stderr
+-rw-r--r-- 1 slot1_13 slot1_13         51 Nov  8 10:00 _condor_stdout
+-rwxr-xr-x 1 slot1_13 slot1_13        812 Nov  7 13:36 condor_exec.exe
+-rwxrwxr-x 1 slot1_13 slot1_13        487 Nov  7 13:36 mucoljob_Calo.sh
+-rw-r--r-- 1 slot1_13 slot1_13 5547241288 Nov  8 10:00 muonGun_sim_MuColl_v1.slcio
+-rw-r--r-- 1 slot1_13 slot1_13       3146 Nov  8 10:00 ntuple24526.out
+-rw-r--r-- 1 slot1_13 slot1_13       3334 Nov  8 10:00 reco24526.out
+-rw-r--r-- 1 slot1_13 slot1_13    1290549 Nov  8 10:00 sim24526.out
+-rw------- 1 slot1_13 slot1_13       6346 Nov  7 13:36 x509up_u10157
+
+home:
+total 4
+drwx------ 3 slot1_13 slot1_13 4096 Nov  7 13:36 slot1_13
+
+tmp:
+total 0
+
+var:
+total 4
+drwx------ 2 slot1_13 slot1_13 4096 Nov  7 13:36 tmp
