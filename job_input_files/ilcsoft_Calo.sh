@@ -14,16 +14,16 @@ source /opt/ilcsoft/muonc/init_ilcsoft.sh
 
 GEO="/opt/ilcsoft/muonc/detector-simulation/geometries/MuColl_v1/MuColl_v1.xml"
 
-ddsim --compactFile ${GEO} --inputFile NewData2.hepmc --steeringFile sim_steer_muonGun_MuColl_v1.py &> $WORKDIR/sim$$.out 
+ddsim --compactFile ${GEO} --inputFile NewData2.hepmc --steeringFile sim_steer_muonGun_MuColl_v1.py &> $WORKDIR/sim.out 
 
-Marlin --InitDD4hep_mod4.DD4hepXMLFile=${GEO} reco_steer_BIB_v2.xml &> $WORKDIR/reco$$.out
+Marlin --InitDD4hep_mod4.DD4hepXMLFile=${GEO} reco_steer_BIB_v2.xml &> $WORKDIR/reco.out
 
-Marlin lcTuple_steer.xml &> $WORKDIR/ntuple$$.out
+Marlin lcTuple_steer.xml &> $WORKDIR/ntuple.out
 
-#mv histograms.root $WORKDIR/histograms$$.root 
+mv ntuple_tracker.root $WORKDIR/histograms.root 
 
-#mv lctuple_tracker.root $WORKDIR/JetHistograms$$.root
+mv lctuple_tracker.root $WORKDIR/JetHistograms.root
 
-#mv Output_REC_1.slcio $WORKDIR/Output_REC$$.slcio
+mv Output_REC.slcio $WORKDIR/Output_REC.slcio
 
-#mv SimHits_1.slcio $WORKDIR/SimHits$$.slcio 
+mv muonGun_sim_MuColl_v1.slcio $WORKDIR/SimHits.slcio 
