@@ -25,25 +25,28 @@
       <processor name="OverlayBIB"/>
     </if>
 
+    <!--
     <if condition="Config.OverlayFalse">
       <processor name="OverlayFalse"/>
-    </if>    
+    </if>
+    -->    
 
     <!-- ==========  Tracker Digitization  ========== -->
-    <!-- <processor name="VXDBarrelDigitiser"/> -->
-    <processor name="VXDBarrelRealisticDigiCMS"/> 
-    <!-- disable other digi jobs for now -->
+    <processor name="VXDBarrelDigitiser"/>
+    <!-- <processor name="VXDBarrelRealisticDigiCMS"/> --> 
+    <!-- disable other digi jobs for now
     <processor name="VXDEndcapDigitiser"/>
     <processor name="InnerPlanarDigiProcessor"/>
     <processor name="InnerEndcapPlanarDigiProcessor"/>
     <processor name="OuterPlanarDigiProcessor"/>
     <processor name="OuterEndcapPlanarDigiProcessor"/>
+    -->
 
     <!-- ==========  Tracking  ========== -->
     <!-- At the moment the name of the final track collection for the MyTruthTrackFinder and MyExtrToTracker processors is the same, 
          so that users can use this example to run easily both the cheater track pattern recognition (still the default for many tasks) 
          or the real one (under final tests) -->
-    <!-- disable tracking -->
+    <!-- disable tracking 
     <if condition="Config.TrackingTruth">
       <processor name="MyTruthTrackFinder"/>
     </if>
@@ -52,12 +55,14 @@
       <processor name="ClonesAndSplitTracksFinder"/>
     </if>
     <processor name="Refit" />
+    -->
 
     <!-- ==========  Monitoring  ========== -->
-    <!-- disable monitoring -->
+    <!-- disable monitoring 
     <processor name="MyClicEfficiencyCalculator"/>
-    <!-- processor name="MyRecoMCTruthLinker"/ -->
+    <processor name="MyRecoMCTruthLinker"/>
     <processor name="MyTrackChecker"/>
+    -->
     <!-- <processor name="MyHitResiduals"/> --> <!-- please uncomment the use of this processor only if needed -->
 
     <!-- ==========  LCTuple  ========== -->
@@ -65,10 +70,10 @@
 
     <!-- ==========  Output  ========== -->
     <processor name="Output_REC"/>
-    <processor name="Output_DST"/>
+    <!-- <processor name="Output_DST"/> -->
 
     <!-- =  Calorimeter Digitization  = -->
-    <processor name="MyDDCaloDigi"/>
+    <processor name="MyDDCaloDigi"/> <!--"MyDDCaloDigi"-->
 
   </execute>
 
@@ -218,7 +223,7 @@
   <!-- ======================================================================================================== -->
   <!-- ======================================================================================================== -->
 
-  <processor name="MyDDCaloDigi" type="DDCaloDigi">
+  <processor name="MyDDCaloDigi" type="DDCaloDigi"> <!--"MyDDCaloDigi"-->
     <!--Performs simple digitization of sim calo hits...-->
 
     <!--Hit times histograms-->
@@ -408,9 +413,9 @@
     <!--Name of the Cluster collection-->
     <parameter name="ClusterCollection" type="string" lcioInType="Cluster"> </parameter>
     <!--Name of the IsoLep collection-->
-    <!-- parameter name="IsoLepCollection" type="string" lcioInType="ReconstructedParticle" > </parameter -->
+    <parameter name="IsoLepCollection" type="string" lcioInType="ReconstructedParticle"> </parameter>
     <!--Name of the Jet collection-->
-    <!--parameter name="JetCollection" type="string" lcioInType="ReconstructedParticle"> JetOut </parameter -->
+    <parameter name="JetCollection" type="string" lcioInType="ReconstructedParticle"> JetOut </parameter>
     <!--Switch to write out extra parameters calculated using information from Jet Finder-->
     <parameter name="JetCollectionExtraParameters" type="bool">true </parameter>
     <!--Switch to write out jet parameters coming from LCFIPlus tagging processor-->
@@ -454,15 +459,15 @@
     <!--Switch to write out collection parameters-->
     <parameter name="WriteCalorimeterHitCollectionParameters" type="bool">true </parameter>
     <!--Switch to write out collection parameters-->
-    <parameter name="WriteClusterCollectionParameters" type="bool">false </parameter>
+    <parameter name="WriteClusterCollectionParameters" type="bool">false </parameter> <!--false-->
     <!--Switch to write out collection parameters-->
-    <parameter name="WriteIsoLepCollectionParameters" type="bool">false </parameter>
+    <parameter name="WriteIsoLepCollectionParameters" type="bool">false </parameter> <!--false-->
     <!--Switch to write out collection parameters-->
-    <parameter name="WriteJetCollectionParameters" type="bool">false </parameter>
+    <parameter name="WriteJetCollectionParameters" type="bool">false </parameter> <!--false-->
     <!--Switch to write out collection parameters-->
     <parameter name="WriteMCParticleCollectionParameters" type="bool">true </parameter>
     <!--Switch to write out collection parameters-->
-    <!-- <parameter name="WriteRecoParticleCollectionParameters" type="bool">true </parameter> -->
+    <parameter name="WriteRecoParticleCollectionParameters" type="bool">false </parameter>
     <!--Switch to write out collection parameters-->
     <parameter name="WriteSimCalorimeterHitCollectionParameters" type="bool">true </parameter>
     <!--Switch to write out collection parameters-->
@@ -534,26 +539,26 @@
 
     <processor name="OverlayBIB" type="OverlayTimingGeneric">
       <parameter name="BackgroundFileNames" type="StringVec">
-	/scratch/data/BIB/sim_mumi-1e3x500-26m-lowth-excl_j1.slcio
-	/scratch/data/BIB/sim_mumi-1e3x500-26m-lowth-excl_j2.slcio
-	/scratch/data/BIB/sim_mumi-1e3x500-26m-lowth-excl_j3.slcio
-	/scratch/data/BIB/sim_mumi-1e3x500-26m-lowth-excl_j4.slcio
-	/scratch/data/BIB/sim_mumi-1e3x500-26m-lowth-excl_j5.slcio
-	/scratch/data/BIB/sim_mumi-1e3x500-26m-lowth-excl_j6.slcio
-	/scratch/data/BIB/sim_mumi-1e3x500-26m-lowth-excl_j7.slcio
-	/scratch/data/BIB/sim_mumi-1e3x500-26m-lowth-excl_j8.slcio
-	/scratch/data/BIB/sim_mupl-1e3x500-26m-lowth-excl_j1.slcio
-	/scratch/data/BIB/sim_mupl-1e3x500-26m-lowth-excl_j2.slcio
-	/scratch/data/BIB/sim_mupl-1e3x500-26m-lowth-excl_j3.slcio
-	/scratch/data/BIB/sim_mupl-1e3x500-26m-lowth-excl_j4.slcio
-	/scratch/data/BIB/sim_mupl-1e3x500-26m-lowth-excl_j5.slcio
-	/scratch/data/BIB/sim_mupl-1e3x500-26m-lowth-excl_j6.slcio
-	/scratch/data/BIB/sim_mupl-1e3x500-26m-lowth-excl_j7.slcio
-	/scratch/data/BIB/sim_mupl-1e3x500-26m-lowth-excl_j8.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mumi-1e3x500-26m-lowth-excl_j1.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mumi-1e3x500-26m-lowth-excl_j2.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mumi-1e3x500-26m-lowth-excl_j3.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mumi-1e3x500-26m-lowth-excl_j4.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mumi-1e3x500-26m-lowth-excl_j5.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mumi-1e3x500-26m-lowth-excl_j6.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mumi-1e3x500-26m-lowth-excl_j7.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mumi-1e3x500-26m-lowth-excl_j8.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mupl-1e3x500-26m-lowth-excl_j1.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mupl-1e3x500-26m-lowth-excl_j2.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mupl-1e3x500-26m-lowth-excl_j3.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mupl-1e3x500-26m-lowth-excl_j4.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mupl-1e3x500-26m-lowth-excl_j5.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mupl-1e3x500-26m-lowth-excl_j6.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mupl-1e3x500-26m-lowth-excl_j7.slcio
+	/cvmfs/cms.hep.wisc.edu/mucol/reference/slomte_BIBsamples/sim_mupl-1e3x500-26m-lowth-excl_j8.slcio
       </parameter>
       <parameter name="StartBackgroundFileIndex" type="int" value="0"/>
       <parameter name="AllowReusingBackgroundFiles" type="bool" value="false" />
-      <parameter name="Verbosity" options="DEBUG0-4,MESSAGE0-4,WARNING0-4,ERROR0-4,SILENT">WARNING </parameter>
+      <parameter name="Verbosity" options="DEBUG0-4,MESSAGE0-4,WARNING0-4,ERROR0-4,SILENT">DEBUG1 </parameter>
       <parameter name="NBunchtrain" type="int" value="1" />
       <parameter name="NumberBackground" type="float" value="2993" />
       <!--parameter name="NumberBackground" type="float" value="30" /-->

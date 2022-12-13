@@ -3,10 +3,10 @@
 mkdir jobHome
 
 mv ilcsoft_Calo.sh jobHome 
-mv sim_steer_muonGun_MuColl_v1.py jobHome
+mv sim_steer_muonGun_MuColl_v2.py jobHome
 mv reco_steer_BIB_v2.xml jobHome
 mv NewData2.hepmc jobHome
-mv lctuple_steer.xml jobHome
+mv lctuple_steer_v2.xml jobHome
 mv Pandora* jobHome
 
 WORKDIR=`pwd`/jobHome
